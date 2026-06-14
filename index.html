@@ -1,55 +1,22 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<title>App-BhoiMali</title>
- 
+<title>Web App</title>
+
 <style>
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow: hidden;
 }
 
-/* Iframe */
 iframe {
   width: 100%;
-  height: calc(100vh - 45px);
+  height: 100vh;
   border: 0;
-}
-
-/* Developer Bar */
-.developerBar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: linear-gradient(45deg, #111, #2563eb);
-  color: #fff;
-  padding: 4px 0;
-  font-size: 14px;
-  font-weight: 600;
-  z-index: 9999;
-  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.25);
-}
-
-.developerBar marquee {
-  width: 100%;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-  iframe {
-    height: calc(100vh - 42px);
-  }
-
-  .developerBar {
-    font-size: 14px;
-    padding: 3px 0;
-  }
 }
 </style>
 </head>
@@ -58,16 +25,8 @@ iframe {
 
 <iframe
   src="https://script.google.com/macros/s/AKfycbwLp8_5lB0X7JHJpN9Q_s5RQblA5Fp71l16MljZdCexf4mecFEqx2l1GFkhpfn6ADkX/exec"
-  allowfullscreen>
+  allow="fullscreen">
 </iframe>
-
-<div class="developerBar">
-  <marquee behavior="scroll" direction="left" scrollamount="5">
-    ✨ sss Website Developed By Ramesh Chandra Mali | 9667972960 |
-    BMSSSR Accounting Portal ff|
-    Mobile Responsive Secure System 🚀
-  </marquee>
-</div>
 
 </body>
 </html>
